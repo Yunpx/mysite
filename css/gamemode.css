@@ -1,6 +1,7 @@
 .jumbotron{
   background-image: url("../images/logo.png");
-
+  background-repeat: no-repeat;
+  text-align: right;
 }
 .navbar{
   /* overflow: hidden; */
@@ -12,12 +13,20 @@
   margin-bottom: 0px;
   margin-left: auto;
   z-index: 100; /* <-- Added */ */
+  opacity: 0.5;
+
 }
+.navbar-default{
+background-color:rgba(0, 0, 0, 0.5);
+}
+.navbar a{
+  color: White;
+  }
 
 .speedmode{
   height: 700px;
   background-color: red;
 }
 .speedmode p{
-  font-size: 50px;
+  font-size: 20px;
 }

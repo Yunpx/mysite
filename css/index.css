@@ -12,6 +12,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+article{
+  padding: 10px;
+}
 
 body{
   /* background-color: lightblue; */
@@ -30,3 +33,11 @@ body{
   margin-left: auto;
   z-index: 100; /* <-- Added */ */
 }
+
+.navbar-default{
+background-color:rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+  color: White;
+  }
