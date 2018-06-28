@@ -2,6 +2,7 @@
   /* The image used */
   background-image: url("../images/logo.png");
 
+
   /* Set a specific height */
   min-height: 500px;
 
@@ -13,11 +14,19 @@
 }
 
 body{
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 .navbar{
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   width: 100%;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  z-index: 100; /* <-- Added */ */
 }
