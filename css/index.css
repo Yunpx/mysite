@@ -58,6 +58,9 @@ color: white;
   color: white;
 }
 
+.panel-body h3, .panel-body p{
+  color: black;
+}
 @media only screen and (max-width: 768px) {
     .parallax {
         background-image: none;
